@@ -1,17 +1,13 @@
 package com.example.raspisan;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
-    /*@Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }*/
-    @Override
+public class Menu extends AppCompatActivity {
+
+   /* @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
@@ -37,9 +33,5 @@ public class MainActivity extends AppCompatActivity {
             default:
                 break;
         }
-    }
-
-    public void onClick_Set(View view) {
-
-    }
+    }*/
 }
