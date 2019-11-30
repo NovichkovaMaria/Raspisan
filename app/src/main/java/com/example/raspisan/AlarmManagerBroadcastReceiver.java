@@ -43,7 +43,7 @@ public class AlarmManagerBroadcastReceiver extends BroadcastReceiver {
         Log.d(tag, "Hour = " + Integer.toString(begin.get(Calendar.HOUR_OF_DAY)));
         Log.d(tag, "Minute = " + Integer.toString(begin.get(Calendar.MINUTE)));
 
-        String output = Integer.toString(begin.get(Calendar.DAY_OF_MONTH)) + "." + Integer.toString(begin.get(Calendar.MONTH)) +
+        String output = Integer.toString(begin.get(Calendar.DAY_OF_MONTH)) + "." + Integer.toString(begin.get(Calendar.MONTH) + 1) +
                 "\n" + Integer.toString(begin.get(Calendar.HOUR_OF_DAY)) + ":" + Integer.toString(begin.get(Calendar.MINUTE));
         Toast toast = Toast.makeText(context, output, Toast.LENGTH_LONG);
         toast.show();

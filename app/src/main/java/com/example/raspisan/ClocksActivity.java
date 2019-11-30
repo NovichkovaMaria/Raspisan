@@ -37,35 +37,35 @@ public class ClocksActivity extends AppCompatActivity {
             switch(rb.getId()){
                 case R.id.radioButton_1:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 8, 0, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 7, 0, 0);
                     break;
                 case R.id.radioButton_2:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 9, 40, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 8, 40, 0);
                     break;
                 case R.id.radioButton_3:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 11, 30, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 10, 30, 0);
                     break;
                 case R.id.radioButton_4:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 13, 10, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 12, 10, 0);
                     break;
                 case R.id.radioButton_5:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 14,50, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 13,50, 0);
                     break;
                 case R.id.radioButton_6:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 16, 30, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 15, 30, 0);
                     break;
                 case R.id.radioButton_7:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 18, 10, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 17, 10, 0);
                     break;
                 case R.id.radioButton_8:
                     begin.set(now.get(Calendar.YEAR), now.get(Calendar.MONTH),
-                            now.get(Calendar.DAY_OF_MONTH), 19, 50, 0);
+                            now.get(Calendar.DAY_OF_MONTH), 18, 50, 0);
                     break;
                 default:
                     Log.d(tag, "default");
